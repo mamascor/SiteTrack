@@ -10,6 +10,7 @@
 		CE948E802A1C9341007ED2AD /* ProjectIconView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE948E7F2A1C9341007ED2AD /* ProjectIconView.swift */; };
 		CE948E822A1C9367007ED2AD /* ProjectHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE948E812A1C9367007ED2AD /* ProjectHeaderView.swift */; };
 		CE948E862A1D6E1F007ED2AD /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE948E852A1D6E1F007ED2AD /* OnboardingView.swift */; };
+		CE948E882A1D75D6007ED2AD /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE948E872A1D75D6007ED2AD /* CalendarView.swift */; };
 		CED4B6502A1C0F0F00513649 /* ChatAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED4B64F2A1C0F0F00513649 /* ChatAppApp.swift */; };
 		CED4B6522A1C0F0F00513649 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED4B6512A1C0F0F00513649 /* ContentView.swift */; };
 		CED4B6542A1C0F1000513649 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CED4B6532A1C0F1000513649 /* Assets.xcassets */; };
@@ -32,13 +33,13 @@
 		CEFA7CB12A1C67C300D80AE1 /* Extension+View.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFA7CB02A1C67C300D80AE1 /* Extension+View.swift */; };
 		CEFA7CB32A1C713000D80AE1 /* HomeTabIndexView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFA7CB22A1C713000D80AE1 /* HomeTabIndexView.swift */; };
 		CEFA7CB52A1C719900D80AE1 /* ProductivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFA7CB42A1C719900D80AE1 /* ProductivityView.swift */; };
-		CEFA7CB72A1C8F6E00D80AE1 /* ProductCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFA7CB62A1C8F6E00D80AE1 /* ProductCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		CE948E7F2A1C9341007ED2AD /* ProjectIconView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectIconView.swift; sourceTree = "<group>"; };
 		CE948E812A1C9367007ED2AD /* ProjectHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectHeaderView.swift; sourceTree = "<group>"; };
 		CE948E852A1D6E1F007ED2AD /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		CE948E872A1D75D6007ED2AD /* CalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
 		CED4B64C2A1C0F0F00513649 /* ChatApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChatApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CED4B64F2A1C0F0F00513649 /* ChatAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatAppApp.swift; sourceTree = "<group>"; };
 		CED4B6512A1C0F0F00513649 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -62,7 +63,6 @@
 		CEFA7CB02A1C67C300D80AE1 /* Extension+View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+View.swift"; sourceTree = "<group>"; };
 		CEFA7CB22A1C713000D80AE1 /* HomeTabIndexView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTabIndexView.swift; sourceTree = "<group>"; };
 		CEFA7CB42A1C719900D80AE1 /* ProductivityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductivityView.swift; sourceTree = "<group>"; };
-		CEFA7CB62A1C8F6E00D80AE1 /* ProductCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,9 +79,60 @@
 		CE948E842A1D6E08007ED2AD /* SideView */ = {
 			isa = PBXGroup;
 			children = (
+				CE948E872A1D75D6007ED2AD /* CalendarView.swift */,
 				CE948E852A1D6E1F007ED2AD /* OnboardingView.swift */,
 			);
 			path = SideView;
+			sourceTree = "<group>";
+		};
+		CE948E892A1D8187007ED2AD /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				CEFA7CA82A1C500800D80AE1 /* Extension+Text.swift */,
+				CEFA7CB02A1C67C300D80AE1 /* Extension+View.swift */,
+				CEFA7CAA2A1C5FDD00D80AE1 /* Extension+Image.swift */,
+				CEFA7CA42A1C4C4C00D80AE1 /* Extension+Color.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		CE948E8A2A1D81AB007ED2AD /* Project */ = {
+			isa = PBXGroup;
+			children = (
+				CEFA7CAE2A1C654A00D80AE1 /* ProjectView.swift */,
+				CE948E812A1C9367007ED2AD /* ProjectHeaderView.swift */,
+				CE948E7F2A1C9341007ED2AD /* ProjectIconView.swift */,
+			);
+			path = Project;
+			sourceTree = "<group>";
+		};
+		CE948E8B2A1D81B2007ED2AD /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				CEFA7CB22A1C713000D80AE1 /* HomeTabIndexView.swift */,
+				CEFA7CA22A1C4BB600D80AE1 /* NameHeader.swift */,
+				CEFA7CAC2A1C64BE00D80AE1 /* TabProView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		CE948E8C2A1D81BC007ED2AD /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				CED4B6612A1C1A8200513649 /* PasswordTextView.swift */,
+				CED4B65F2A1C12D300513649 /* LoginPickerView.swift */,
+				CED4B6652A1C379100513649 /* RememberView.swift */,
+				CED4B6632A1C1B8400513649 /* CustomTextField.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		CE948E8D2A1D81F3007ED2AD /* Productivity */ = {
+			isa = PBXGroup;
+			children = (
+				CEFA7CB42A1C719900D80AE1 /* ProductivityView.swift */,
+			);
+			path = Productivity;
 			sourceTree = "<group>";
 		};
 		CED4B6432A1C0F0F00513649 = {
@@ -105,16 +156,7 @@
 			children = (
 				CED4B64F2A1C0F0F00513649 /* ChatAppApp.swift */,
 				CED4B6512A1C0F0F00513649 /* ContentView.swift */,
-				CEFA7CA42A1C4C4C00D80AE1 /* Extension+Color.swift */,
-				CEFA7CA82A1C500800D80AE1 /* Extension+Text.swift */,
-				CEFA7CB02A1C67C300D80AE1 /* Extension+View.swift */,
-				CEFA7CAA2A1C5FDD00D80AE1 /* Extension+Image.swift */,
-				CEFA7CB22A1C713000D80AE1 /* HomeTabIndexView.swift */,
-				CEFA7CAE2A1C654A00D80AE1 /* ProjectView.swift */,
-				CE948E812A1C9367007ED2AD /* ProjectHeaderView.swift */,
-				CE948E7F2A1C9341007ED2AD /* ProjectIconView.swift */,
-				CEFA7CB62A1C8F6E00D80AE1 /* ProductCell.swift */,
-				CEFA7CB42A1C719900D80AE1 /* ProductivityView.swift */,
+				CE948E892A1D8187007ED2AD /* Extension */,
 				CE948E842A1D6E08007ED2AD /* SideView */,
 				CED4B66D2A1C48F200513649 /* Utilities */,
 				CED4B66B2A1C48BC00513649 /* Components */,
@@ -136,12 +178,10 @@
 		CED4B66B2A1C48BC00513649 /* Components */ = {
 			isa = PBXGroup;
 			children = (
-				CEFA7CA22A1C4BB600D80AE1 /* NameHeader.swift */,
-				CEFA7CAC2A1C64BE00D80AE1 /* TabProView.swift */,
-				CED4B65F2A1C12D300513649 /* LoginPickerView.swift */,
-				CED4B6612A1C1A8200513649 /* PasswordTextView.swift */,
-				CED4B6652A1C379100513649 /* RememberView.swift */,
-				CED4B6632A1C1B8400513649 /* CustomTextField.swift */,
+				CE948E8C2A1D81BC007ED2AD /* Login */,
+				CE948E8B2A1D81B2007ED2AD /* Home */,
+				CE948E8A2A1D81AB007ED2AD /* Project */,
+				CE948E8D2A1D81F3007ED2AD /* Productivity */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -240,6 +280,7 @@
 				CED4B6622A1C1A8200513649 /* PasswordTextView.swift in Sources */,
 				CEFA7CA52A1C4C4C00D80AE1 /* Extension+Color.swift in Sources */,
 				CEFA7CB32A1C713000D80AE1 /* HomeTabIndexView.swift in Sources */,
+				CE948E882A1D75D6007ED2AD /* CalendarView.swift in Sources */,
 				CEFA7CAF2A1C654A00D80AE1 /* ProjectView.swift in Sources */,
 				CEFA7CAB2A1C5FDD00D80AE1 /* Extension+Image.swift in Sources */,
 				CEFA7CA32A1C4BB600D80AE1 /* NameHeader.swift in Sources */,
@@ -247,7 +288,6 @@
 				CEFA7CA92A1C500900D80AE1 /* Extension+Text.swift in Sources */,
 				CED4B6662A1C379100513649 /* RememberView.swift in Sources */,
 				CEFA7CB12A1C67C300D80AE1 /* Extension+View.swift in Sources */,
-				CEFA7CB72A1C8F6E00D80AE1 /* ProductCell.swift in Sources */,
 				CE948E802A1C9341007ED2AD /* ProjectIconView.swift in Sources */,
 				CEFA7CA72A1C4F4300D80AE1 /* TabEnum.swift in Sources */,
 				CED4B6642A1C1B8400513649 /* CustomTextField.swift in Sources */,

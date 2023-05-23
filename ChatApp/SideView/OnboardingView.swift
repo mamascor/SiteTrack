@@ -72,12 +72,13 @@ struct OnboardingSubview: View {
                     Text("Get started")
                     Image(systemName: "arrow.right")
                 }
+                .foregroundColor(.white)
+                .frame(maxWidth: .infinity, alignment: .center)
+                .padding(.vertical)
+                .background(Color.activeBlue)
+                .cornerRadius(10)
             }
-            .foregroundColor(.white)
-            .frame(maxWidth: .infinity, alignment: .center)
-            .padding(.vertical)
-            .background(Color.activeBlue)
-            .cornerRadius(10)
+           
             .padding(.top, 40)
         }
         .padding()
