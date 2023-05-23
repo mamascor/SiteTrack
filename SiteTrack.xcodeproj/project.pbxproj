@@ -138,7 +138,7 @@
 		CED4B6432A1C0F0F00513649 = {
 			isa = PBXGroup;
 			children = (
-				CED4B64E2A1C0F0F00513649 /* ChatApp */,
+				CED4B64E2A1C0F0F00513649 /* SiteTrack */,
 				CED4B64D2A1C0F0F00513649 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -151,7 +151,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		CED4B64E2A1C0F0F00513649 /* ChatApp */ = {
+		CED4B64E2A1C0F0F00513649 /* SiteTrack */ = {
 			isa = PBXGroup;
 			children = (
 				CED4B64F2A1C0F0F00513649 /* SiteTrackApp.swift */,
@@ -164,7 +164,7 @@
 				CED4B6532A1C0F1000513649 /* Assets.xcassets */,
 				CED4B6552A1C0F1000513649 /* Preview Content */,
 			);
-			path = ChatApp;
+			path = SiteTrack;
 			sourceTree = "<group>";
 		};
 		CED4B6552A1C0F1000513649 /* Preview Content */ = {
