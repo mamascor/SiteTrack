@@ -11,7 +11,7 @@
 		CE948E822A1C9367007ED2AD /* ProjectHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE948E812A1C9367007ED2AD /* ProjectHeaderView.swift */; };
 		CE948E862A1D6E1F007ED2AD /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE948E852A1D6E1F007ED2AD /* OnboardingView.swift */; };
 		CE948E882A1D75D6007ED2AD /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE948E872A1D75D6007ED2AD /* CalendarView.swift */; };
-		CED4B6502A1C0F0F00513649 /* ChatAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED4B64F2A1C0F0F00513649 /* ChatAppApp.swift */; };
+		CED4B6502A1C0F0F00513649 /* SiteTrackApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED4B64F2A1C0F0F00513649 /* SiteTrackApp.swift */; };
 		CED4B6522A1C0F0F00513649 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED4B6512A1C0F0F00513649 /* ContentView.swift */; };
 		CED4B6542A1C0F1000513649 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CED4B6532A1C0F1000513649 /* Assets.xcassets */; };
 		CED4B6572A1C0F1000513649 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CED4B6562A1C0F1000513649 /* Preview Assets.xcassets */; };
@@ -40,8 +40,8 @@
 		CE948E812A1C9367007ED2AD /* ProjectHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectHeaderView.swift; sourceTree = "<group>"; };
 		CE948E852A1D6E1F007ED2AD /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
 		CE948E872A1D75D6007ED2AD /* CalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
-		CED4B64C2A1C0F0F00513649 /* ChatApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChatApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		CED4B64F2A1C0F0F00513649 /* ChatAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatAppApp.swift; sourceTree = "<group>"; };
+		CED4B64C2A1C0F0F00513649 /* SiteTrack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SiteTrack.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CED4B64F2A1C0F0F00513649 /* SiteTrackApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SiteTrackApp.swift; sourceTree = "<group>"; };
 		CED4B6512A1C0F0F00513649 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		CED4B6532A1C0F1000513649 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CED4B6562A1C0F1000513649 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -146,7 +146,7 @@
 		CED4B64D2A1C0F0F00513649 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CED4B64C2A1C0F0F00513649 /* ChatApp.app */,
+				CED4B64C2A1C0F0F00513649 /* SiteTrack.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -154,7 +154,7 @@
 		CED4B64E2A1C0F0F00513649 /* ChatApp */ = {
 			isa = PBXGroup;
 			children = (
-				CED4B64F2A1C0F0F00513649 /* ChatAppApp.swift */,
+				CED4B64F2A1C0F0F00513649 /* SiteTrackApp.swift */,
 				CED4B6512A1C0F0F00513649 /* ContentView.swift */,
 				CE948E892A1D8187007ED2AD /* Extension */,
 				CE948E842A1D6E08007ED2AD /* SideView */,
@@ -208,9 +208,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		CED4B64B2A1C0F0F00513649 /* ChatApp */ = {
+		CED4B64B2A1C0F0F00513649 /* SiteTrack */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CED4B65A2A1C0F1000513649 /* Build configuration list for PBXNativeTarget "ChatApp" */;
+			buildConfigurationList = CED4B65A2A1C0F1000513649 /* Build configuration list for PBXNativeTarget "SiteTrack" */;
 			buildPhases = (
 				CED4B6482A1C0F0F00513649 /* Sources */,
 				CED4B6492A1C0F0F00513649 /* Frameworks */,
@@ -220,9 +220,9 @@
 			);
 			dependencies = (
 			);
-			name = ChatApp;
+			name = SiteTrack;
 			productName = ChatApp;
-			productReference = CED4B64C2A1C0F0F00513649 /* ChatApp.app */;
+			productReference = CED4B64C2A1C0F0F00513649 /* SiteTrack.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -240,7 +240,7 @@
 					};
 				};
 			};
-			buildConfigurationList = CED4B6472A1C0F0F00513649 /* Build configuration list for PBXProject "ChatApp" */;
+			buildConfigurationList = CED4B6472A1C0F0F00513649 /* Build configuration list for PBXProject "SiteTrack" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -253,7 +253,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				CED4B64B2A1C0F0F00513649 /* ChatApp */,
+				CED4B64B2A1C0F0F00513649 /* SiteTrack */,
 			);
 		};
 /* End PBXProject section */
@@ -298,7 +298,7 @@
 				CED4B6602A1C12D300513649 /* LoginPickerView.swift in Sources */,
 				CE948E862A1D6E1F007ED2AD /* OnboardingView.swift in Sources */,
 				CEFA7CAD2A1C64BE00D80AE1 /* TabProView.swift in Sources */,
-				CED4B6502A1C0F0F00513649 /* ChatAppApp.swift in Sources */,
+				CED4B6502A1C0F0F00513649 /* SiteTrackApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -444,7 +444,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.boringlemonade.ChatApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.boringlemonade.SiteTrack;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
@@ -480,7 +480,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.boringlemonade.ChatApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.boringlemonade.SiteTrack;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
@@ -494,7 +494,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		CED4B6472A1C0F0F00513649 /* Build configuration list for PBXProject "ChatApp" */ = {
+		CED4B6472A1C0F0F00513649 /* Build configuration list for PBXProject "SiteTrack" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CED4B6582A1C0F1000513649 /* Debug */,
@@ -503,7 +503,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CED4B65A2A1C0F1000513649 /* Build configuration list for PBXNativeTarget "ChatApp" */ = {
+		CED4B65A2A1C0F1000513649 /* Build configuration list for PBXNativeTarget "SiteTrack" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CED4B65B2A1C0F1000513649 /* Debug */,
